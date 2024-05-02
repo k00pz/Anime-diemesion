@@ -161,16 +161,16 @@ local q = {
     "Level Dimension"
 }
 local r = {"Easy", "Hard", "Nightmare", "Infinite"}
-local s = {"Capsule Series 1", "Raid Capsule", "Gear 5 Fluffy Capsule", "Esper Capsule"}
-local t = { "Tengoku Raid", "Hirito Raid", "Titan Raid", "Esper Raid" ,"Demon Lord Raid","Yomiichi Raid", "Christmas Raid","Combat Titan Raid", "Infinity Nojo Raid", "Gear 5 Fluffy Raid"}
+local s = {"Capsule Series 1", "Raid Capsule", "Gear 5 Fluffy Capsule", "Warlord Capsule", "Buff Boy Capsule", "Psycho Student Capsule"}
+local t = { "Psycho Student Raid", "Buff Boy Raid", "Warlord Raid","Tengoku Raid","Hirito Raid", "Titan Raid", "Gear 5 Fluffy Raid"}
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "Exploit X - Premium",
+    Title = "Exploit X - Premium Updated",
     SubTitle = "Anime Dimensions",
-    TabWidth = 170,
+    TabWidth = 160,
     Size = UDim2.fromOffset(450, 225),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Dark",
@@ -1891,7 +1891,7 @@ local Misc = Tabs.Misc:AddSection("Misc")
 
 Misc:AddButton({
         Title = "Mobile Keyboard",
-        Description = "Keyboard.",
+        Description = "launches a GUI that mimics a Keyboard.",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
         end
@@ -1899,7 +1899,7 @@ Misc:AddButton({
     
 Misc:AddButton({
         Title = "Infinite Yield",
-        Description = "Admin.",
+        Description = "I dont think i have to explain what this is.",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
         end
@@ -1910,7 +1910,7 @@ local Credits = Tabs.Credits:AddSection("Credits")
 
 Credits:AddParagraph({
         Title = "Credits",
-        Content = "Script was made by Fsploit "
+        Content = "Script was made by Fsploit"
     })
 
 Credits:AddButton({
@@ -1930,11 +1930,11 @@ Showcase:AddParagraph({
     
     do
     Fluent:Notify({
-        Title = "Exploit has injected",
+        Title = "Anime dimensions has injected",
         Content = "report any bugs at https://dsc.gg/exploitx",
         SubContent = "or copy the link trough the 'Misc' page", -- Optional
         Duration = 3.5 -- Set to nil to make the notification not disappear
     })
 end
     
-    
+    print("Exploit X| Propriety of Fsploit Development Team©")
